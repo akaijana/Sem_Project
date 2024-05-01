@@ -1,0 +1,56 @@
+.room-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .room-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .room-card h3 {
+    margin-top: 0;
+  }
+  
+  .room-card p {
+    margin: 5px 0;
+  }
+  
+  .room-image {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  button
+  {
+    background-color: lightgreen;
+  }
+
+  input
+  {
+    width: 10px;
+  }
+  
+  .room {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* This centers the button and fields in the middle */
+  }
+  
+  .input-group {
+    justify-content: center;
+    display: flex;
+    align-items: center; /* Aligns the label and input field vertically */
+    margin: 10px 8px ;
+     /* Adds a little space between the input groups */
+  }
+  
+  .input-group label {
+    margin-right: 10px; /* Adds some space between the label and the input */
+  }
+  
+  
